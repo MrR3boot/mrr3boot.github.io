@@ -13,7 +13,7 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 4. SynAck (Only invited researchers)
 5. Other self hosted programs by different domains (Facebook Whitehat/Google VRP/ AT&T BB)
 
-## Sub Domain Scraping:
+## Sub Domain Enumeration:
 
 
 1. Enumall
@@ -24,16 +24,16 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 6. Shodan
 7. Censys
 8. Eye witness
-9. DNS Dumpster [https://dnsdumpster.com/]
-10. Domain [Jhaddix]
-11.Virus Total
-12.https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration
-13.DNSScan
-14.Altdns
-15.dns-parallel-prober
-16.brutesubs
-17.dirsearch
-18.Aquatone
+9. DNS Dumpster (https://dnsdumpster.com)
+10. Google Dorking (site:sony.com -www)
+11. Virus Total
+12. https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration
+13. DNSScan
+14. Altdns
+15. dns-parallel-prober
+16. brutesubs
+17. dirsearch
+18. Aquatone
 
 ## Sub Domain Takeovers:
 
