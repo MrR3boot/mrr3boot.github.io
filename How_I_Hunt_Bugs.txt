@@ -1,8 +1,6 @@
-Bug Bounty Hunting:
--------------------
+#Bug Bounty Hunting
 
-Platforms:
-----------
+#Platforms
 
 OpenBugBounty - (XSS/CSRF/IDOR)(Will accept report from any site)
 BugCrowd
@@ -11,8 +9,7 @@ Cobalt.io
 SynAck (Only invited researchers)
 Other self hosted programs by different domains (Facebook Whitehat/Google VRP/ AT&T BB)
 
-Sub Domain Scraping:
---------------------
+#Sub Domain Scraping
 
 1. Enumall
 2. Massdns
@@ -33,8 +30,7 @@ Sub Domain Scraping:
 17.dirsearch
 18.Aquatone
 
-Sub Domain Takeovers:
---------------------
+#Sub Domain Takeovers
 
 > Cloudfront Entries
 
@@ -67,15 +63,14 @@ TTL: 300
 216.58.203.243    ghs.google.com
 216.58.203.243    ghs.l.google.com
 
-Automation:
------------
+#Automation
+
 1. autoSubTakeover [Github]
 2. HostileSubBruteforcer
 3. tko-subs
 
 
-Git - Recon:
-------------
+#Git - Recon
 
 1. gitrob
 2. git-all-secrets
@@ -83,21 +78,19 @@ Git - Recon:
 4. git-secrets
 5. repo-supervisor
 
-API Enumeration from JS files:
-------------------------------
+#API Enumeration from JS files
+
 https://github.com/GerbenJavado/LinkFinder
 
 
-Acquisition Enumeration:
-------------------------
+#Acquisition Enumeration
 
 1. Crunchbase
 2. https://crt.sh
 3. https://censys.io
 4. https://google.com/transparencyreport/https/ct
 
-Content Discovery / Dir Bruting:
--------------------------------
+#Content Discovery / Dir Bruting
 
 1. Wappalyzer
 2. Retire.js [Burp]
@@ -112,22 +105,19 @@ Content Discovery / Dir Bruting:
 11.CMSExplorer
 12.BlindElephant
 
-Content Management System Bugs:
--------------------------------
+#Content Management System Bugs
 
 Adobe Cold Fusion - (Famous RCE/Admin Salt Leakage/SQL Vuln)
 Drupal CMS - (RCE)
 Wordpress - (Plenty of Bugs)
 Jenkins Automation Server
 
-Parameter Bruter:
------------------
+#Parameter Bruter
 
 1. Parameth
 2. Back Slash Powered Scanner [Burp]
 
-XSS:
-----
+#XSS
 
 1. Polyglot
 2. Flash - https://cure53.de/flashbang
@@ -140,20 +130,17 @@ XSS:
 6. XSS Hunter
 7. Flash XSS (FFDec-ompiler, https://github.com/riusksk/FlashScanner, https://cure53.de/flashbang)
 
-Flash CSRF:
------------
+#Flash CSRF
 
 1. Target is Accepting on JSON format data and Blocking Cross Domain requests with CORS.
 
 https://www.geekboy.ninja/blog/tag/flash-csrf/
 
-SSTI:
------
+#SSTI
 
 1. TPLMap + TPLMap [Burp Extension]
 
-SSRF:
------
+#SSRF
 
 Blind SSRF - Google PoC.
 		   - Twitter PoC.
@@ -162,25 +149,21 @@ Full SSRF
 
 Out of Band
 
-OAuth/OpenRedirect:
--------------------
+#OAuth/OpenRedirect
 
 Validation missing on State/Token/Code (Open Redirection on Google Acquisition)
 
-Fuzzing API:
-------------
+#Fuzzing API
 
 Fuzzapi https://github.com/Fuzzapi/fuzzapi
 
-Logical Bugs:
--------------
+#Logical Bugs
 
 Email Verification Check fails
 
 Money Rounding Issues.
 
-Denial of Service:
-------------------
+#Denial of Service
 
 Via Large input.
 
@@ -190,8 +173,7 @@ Via XLS/PDF/TXT.
 
 Via Out of Band Blind SSRF.
 
-Android-Hunts:
---------------
+#Android-Hunts
 
 Decompile app --> Look for /assets/  or /res/raw [AWS Prod Keys, Dev Leftovers]
 Check for External Storage - Binary Info/Code without validation, Sandbox leak, GPS Info, Log Files
@@ -206,14 +188,12 @@ Webview Checks -
 				-> setSavePassword  
 JavaScriptInterfaces - "jsvar"   -------> RCE CVE-2012-6636 (SDK<=17 supported apps vulnerable)
 
-Payloads:
----------
+#Payloads
 
 1. https://github.com/1N3
 2. https://github.com/danielmiessler/SecLists
 
-Ref:
-----
+#Ref
 
 https://github.com/ngalongc/bug-bounty-reference
 bugbounty.community/tools
