@@ -110,9 +110,9 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 7. WPScan
 8. CMSMap
 9. Robots Disallowed [GitHub By DanielMiessler]
-10.Burp Content Discovery
-11.CMSExplorer
-12.BlindElephant
+10. Burp Content Discovery
+11. CMSExplorer
+12. BlindElephant
 
 ## Content Management System Bugs:
 
