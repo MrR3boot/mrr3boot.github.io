@@ -77,7 +77,7 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 1. autoSubTakeover [Github]
 2. HostileSubBruteforcer
 3. tko-subs
-
+4. https://github.com/VirtueSecurity/aws-extender (Burp Automation)
 
 ## Git - Recon:
 
