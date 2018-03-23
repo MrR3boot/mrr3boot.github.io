@@ -40,38 +40,38 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 
 ### Cloudfront Entries
 
-``` 
- ride.uber.com -  cname - cloudfront.com
- xxxx.ubnt.com - cname - cloudfront.com
-```
+
+1. ride.uber.com -  cname - cloudfront.com
+2. xxxx.ubnt.com - cname - cloudfront.com
+
 ### AWS Misconfiguration
 
-```
- rubyci.s3.amazonaws.com
- hackerone
- uber
- ubiquitinetworks
- twitter etc.
-```
+
+1. rubyci.s3.amazonaws.com
+2. hackerone
+3. uber
+4. ubiquitinetworks
+5. twitter etc.
+
 ### Default Pre-Installed Instances (Install-Update Credentials-Report)
 
 > snapchat wordpress instance - blog.bitstripsforschools.com (https://hackerone.com/reports/274336)
 
 ### Unbouncepages
 
-``` Cname: unbouncepages.com
+ Cname: unbouncepages.com
  Name: landing.udemy.com
  Type: CNAME
  Class: IN
  TTL: 300
-```
+
 ### Google Mapped Domains
 
-```
-216.58.203.243    moderator.ubnt.com
-216.58.203.243    ghs.google.com
-216.58.203.243    ghs.l.google.com
-```
+
+* 216.58.203.243    moderator.ubnt.com
+* 216.58.203.243    ghs.google.com
+* 216.58.203.243    ghs.l.google.com
+
 ## Automation:
 
 1. autoSubTakeover [Github]
@@ -116,12 +116,11 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 
 ## Content Management System Bugs:
 
-```
-Adobe Cold Fusion - (Famous RCE/Admin Salt Leakage/SQL Vuln)
-Drupal CMS - (RCE)
-Wordpress - (Plenty of Bugs)
-Jenkins Automation Server
-```
+1. Adobe Cold Fusion - (Famous RCE/Admin Salt Leakage/SQL Vuln)
+2. Drupal CMS - (RCE)
+3. Wordpress - (Plenty of Bugs)
+4. Jenkins Automation Server
+
 ## Parameter Bruter:
 
 
@@ -155,57 +154,49 @@ Jenkins Automation Server
 
 ## SSRF:
 
-```
-Blind SSRF - Google PoC.
-		   - Twitter PoC.
-		   - AWS metadata acquiring
-Full SSRF
+1. Blind SSRF  
+	- Google PoC.
+	- Twitter PoC.
+	- AWS metadata acquiring
 
-Out of Band
-```
+2. Full SSRF
+
+3. Out of Band
+
 ## OAuth/OpenRedirect:
 
-
-> Validation missing on State/Token/Code (Open Redirection on Google Acquisition)
+Validation missing on State/Token/Code (Open Redirection on Google Acquisition)
 
 ## Fuzzing API:
 
-
-> Fuzzapi https://github.com/Fuzzapi/fuzzapi
+ Fuzzapi https://github.com/Fuzzapi/fuzzapi
 
 ## Logical Bugs:
 
-```
-Email Verification Check fails
+1. Email Verification Check fails
+2. Money Rounding Issues.
 
-Money Rounding Issues.
-```
 ## Denial of Service:
 
-```
-Via Large input.
+1. Via Large input.
+2. Via Images.
+3. Via XLS/PDF/TXT.
+4. Via Out of Band Blind SSRF.
 
-Via Images.
-
-Via XLS/PDF/TXT.
-
-Via Out of Band Blind SSRF.
-```
 ## Android-Hunts:
-```
-Decompile app --> Look for /assets/  or /res/raw [AWS Prod Keys, Dev Leftovers]
-Check for External Storage - Binary Info/Code without validation, Sandbox leak, GPS Info, Log Files
-Detecting Read/Write External Storage - FileObserver
-Obfuscation - Proguard
-Webview Checks -
-				-> setAllowContent
-				-> setAllowFileAccess
-				-> setAllowFileAccessFromURLs
-				-> setJavaScriptEnabled
-				-> setPluginState
-				-> setSavePassword  
-JavaScriptInterfaces - "jsvar"   -------> RCE CVE-2012-6636 (SDK<=17 supported apps vulnerable)
-```
+1. Decompile app --> Look for /assets/  or /res/raw [AWS Prod Keys, Dev Leftovers]
+2. Check for External Storage - Binary Info/Code without validation, Sandbox leak, GPS Info, Log Files
+3. Detecting Read/Write External Storage - FileObserver
+4. Obfuscation - Proguard
+5. Webview Checks
+	- setAllowContent
+	- setAllowFileAccess
+	- setAllowFileAccessFromURLs
+	- setJavaScriptEnabled
+	- setPluginState
+	- setSavePassword  
+6. JavaScriptInterfaces - "jsvar"   -------> RCE CVE-2012-6636 (SDK<=17 supported apps vulnerable)
+
 ## Payloads:
 
 1. https://github.com/1N3
