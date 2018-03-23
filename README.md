@@ -1,6 +1,6 @@
 # Bug Bounty Hunting:
 
-I prefer below available resources to succeed in Bug Bounty Hunting. I'll update this monthly with new techniques. Some of my bug bounty disclosures are available in http://nullnews.in
+I prefer below available resources to succeed in Bug Bounty Hunting. I'll update this monthly with new techniques. Some of my bug bounty disclosures are available in [NullNews](http://nullnews.in)
 
 
 ## Platforms:
@@ -24,10 +24,10 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 6. Shodan
 7. Censys
 8. Eye witness
-9. DNS Dumpster (https://dnsdumpster.com)
+9. [DNS Dumpster](https://dnsdumpster.com)
 10. Google Dorking (site:sony.com -www)
 11. Virus Total
-12. https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration
+12. [BugCrowd LevelUp](https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration)
 13. DNSScan
 14. Altdns
 15. dns-parallel-prober
@@ -55,29 +55,29 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 
 ### Default Pre-Installed Instances (Install-Update Credentials-Report)
 
-> snapchat wordpress instance - blog.bitstripsforschools.com (https://hackerone.com/reports/274336)
+[snapchat wordpress instance](https://hackerone.com/reports/274336)
 
 ### Unbouncepages
 
- Cname: unbouncepages.com
- Name: landing.udemy.com
- Type: CNAME
- Class: IN
- TTL: 300
+	- Cname: unbouncepages.com
+	- Name: landing.udemy.com
+	- Type: CNAME
+	- Class: IN
+	- TTL: 300
 
 ### Google Mapped Domains
 
 
-* 216.58.203.243    moderator.ubnt.com
-* 216.58.203.243    ghs.google.com
-* 216.58.203.243    ghs.l.google.com
+	- 216.58.203.243    moderator.ubnt.com
+	- 216.58.203.243    ghs.google.com
+	- 216.58.203.243    ghs.l.google.com
 
 ## Automation:
 
 1. autoSubTakeover [Github]
 2. HostileSubBruteforcer
 3. tko-subs
-4. https://github.com/VirtueSecurity/aws-extender (Burp Automation)
+4. [Aws Extender](https://github.com/VirtueSecurity/aws-extender)
 
 ## Git - Recon:
 
@@ -89,27 +89,27 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 
 ## API Enumeration from JS files:
 
-> https://github.com/GerbenJavado/LinkFinder
+[LinkFinder](https://github.com/GerbenJavado/LinkFinder)
 
 
 ## Acquisition Enumeration:
 
 1. Crunchbase
-2. https://crt.sh
-3. https://censys.io
-4. https://google.com/transparencyreport/https/ct
+2. [crt.sh](https://crt.sh)
+3. [Censys](https://censys.io)
+4. [Google Cert Repo](https://google.com/transparencyreport/https/ct)
 
 ## Content Discovery / Dir Bruting:
 
 1. Wappalyzer
-2. Retire.js [Burp]
+2. Retire.js
 3. Built With
-4. Vulners CVE Scanner [Burp]
+4. Vulners CVE Scanner
 5. Patator
 6. GoBuster
 7. WPScan
 8. CMSMap
-9. Robots Disallowed [GitHub By DanielMiessler]
+9. Robots Disallowed
 10. Burp Content Discovery
 11. CMSExplorer
 12. BlindElephant
@@ -131,13 +131,13 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 
 
 1. Polyglot
-2. Flash - https://cure53.de/flashbang
+2. [FlashScanner](https://cure53.de/flashbang)
 3. Common Input Vectors
 4. Blind XSS Frameworks
 	- Sleepy Puppy [Python]
 	- XSS Hunter [Python]
 	- Ground Control [Ruby/Smail]
-5. XSS MindMap [https://github.com/jackmasa/]
+5. [XSS MindMap](https://github.com/jackmasa)
 6. XSS Hunter
 7. Flash XSS (FFDec-ompiler, https://github.com/riusksk/FlashScanner, https://cure53.de/flashbang)
 
@@ -145,12 +145,12 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 
 1. Target is Accepting on JSON format data and Blocking Cross Domain requests with CORS.
 
-> https://www.geekboy.ninja/blog/tag/flash-csrf/
+[GeekBoy POC](https://www.geekboy.ninja/blog/tag/flash-csrf/)
 
 ## SSTI:
 
 
-1. TPLMap + TPLMap [Burp Extension]
+1. [TPLMap](https://github.com/epinna/tplmap)
 
 ## SSRF:
 
@@ -169,7 +169,7 @@ Validation missing on State/Token/Code (Open Redirection on Google Acquisition)
 
 ## Fuzzing API:
 
- Fuzzapi https://github.com/Fuzzapi/fuzzapi
+ [Fuzzapi](https://github.com/Fuzzapi/fuzzapi)
 
 ## Logical Bugs:
 
@@ -204,7 +204,6 @@ Validation missing on State/Token/Code (Open Redirection on Google Acquisition)
 
 ## Ref:
 
-> https://github.com/ngalongc/bug-bounty-reference
-
-> bugbounty.community/tools
+[Ron Chon Ref](https://github.com/ngalongc/bug-bounty-reference)
+bugbounty.community/tools
 
