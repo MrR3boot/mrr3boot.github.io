@@ -204,6 +204,6 @@ Validation missing on State/Token/Code (Open Redirection on Google Acquisition)
 
 ## Ref:
 
-[Ron Chon Ref](https://github.com/ngalongc/bug-bounty-reference)
-bugbounty.community/tools
+1. [Ron Chan Ref](https://github.com/ngalongc/bug-bounty-reference)
+2. bugbounty.community/tools
 
