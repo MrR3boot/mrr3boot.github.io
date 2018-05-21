@@ -1,4 +1,5 @@
 theme: jekyll-theme-hacker
 title: Bug Bounty Repository
 description: A quick repo for any bug hunter
-is_project_page: false
+github:
+  is_project_page: false
