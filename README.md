@@ -1,6 +1,6 @@
 # Bug Bounty Hunting:
 
-I prefer below available resources to succeed in Bug Bounty Hunting. I'll update this monthly with new techniques. Some of my bug bounty disclosures are available in [NullNews](http://nullnews.in)
+I prefer below available resources to succeed in Bug Bounty Hunting. I'll update this monthly with new techniques.
 
 
 ## Platforms:
