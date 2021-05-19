@@ -18,22 +18,24 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 
 1. Enumall
 2. Massdns
-3. Sublist3r
-4. Knock
-5. VirusTotal
-6. Shodan
-7. Censys
-8. Eye witness
-9. [DNS Dumpster](https://dnsdumpster.com)
-10. Google Dorking (site:sony.com -www)
-11. Virus Total
-12. [BugCrowd LevelUp](https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration)
-13. DNSScan
-14. Altdns
-15. dns-parallel-prober
-16. brutesubs
-17. dirsearch
-18. Aquatone
+3. Puredns
+4. ct-exposer
+5. Sublist3r
+6. Knock
+7. VirusTotal
+8. Shodan
+9. Censys
+10. Eye witness
+11. [DNS Dumpster](https://dnsdumpster.com)
+12. Google Dorking (site:sony.com -www)
+13. Virus Total
+14. [BugCrowd LevelUp](https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration)
+15. DNSScan
+16. Altdns
+17. dns-parallel-prober
+18. brutesubs
+19. dirsearch
+20. Aquatone
 
 ## Sub Domain Takeovers:
 
@@ -107,12 +109,14 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 4. Vulners CVE Scanner
 5. Patator
 6. GoBuster
-7. WPScan
-8. CMSMap
-9. Robots Disallowed
-10. Burp Content Discovery
-11. CMSExplorer
-12. BlindElephant
+7. FFUf
+8. dirsearch
+10. WPScan
+11. CMSMap
+12. Robots Disallowed
+13. Burp Content Discovery
+14. CMSExplorer
+15. BlindElephant
 
 ## Content Management System Bugs:
 
@@ -139,7 +143,8 @@ I prefer below available resources to succeed in Bug Bounty Hunting. I'll update
 	- Ground Control [Ruby/Smail]
 5. [XSS MindMap](https://github.com/jackmasa)
 6. XSS Hunter
-7. Flash XSS (FFDec-ompiler, https://github.com/riusksk/FlashScanner, https://cure53.de/flashbang)
+7. XSStrike
+8. Flash XSS (FFDec-ompiler, https://github.com/riusksk/FlashScanner, https://cure53.de/flashbang)
 
 ## Flash CSRF:
 
